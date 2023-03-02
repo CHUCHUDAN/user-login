@@ -56,7 +56,7 @@ Installing - 專案安裝流程
     
 8.如需使用種子資料請輸入指令
 
-    在 Terminal 輸入 npm run seed 指令
+    在 Terminal 輸入 npm run seed 指令，因為信箱資料有設定維一值所以種子資料無法重複植入，如需植入請先刪除再植入
     
 Contributor - 專案開發人員
 -----
