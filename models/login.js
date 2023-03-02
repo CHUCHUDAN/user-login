@@ -15,12 +15,12 @@ const loginSchema = new Schema({
   password: {
     type: String,
     required: true,
-    validate: {
-      validator: function (v) {
-        return /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}$/.test(v);
-      },
-      message: props => `${props.value} is not a valid password!`
-    }
+    // validate: {
+    //   validator: function (v) {
+    //     return /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}$/.test(v);
+    //   },
+    //   message: props => `${props.value} is not a valid password!`
+    // }
   },
 })
 

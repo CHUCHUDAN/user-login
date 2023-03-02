@@ -51,7 +51,7 @@ Installing - 專案安裝流程
     
 7.當 terminal 出現以下字樣，表示伺服器啟動成功並與資料庫連線成功
 
-    The web is Listen on http://localhost:3000
+    The web is listening on http://localhost:3000
     Mongodb connected!
     
 8.如需使用種子資料請輸入指令
