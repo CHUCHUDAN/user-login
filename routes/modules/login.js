@@ -16,7 +16,7 @@ function check(res, email, password) {
         const firstName = checkItem.firstName
         return res.render('welcome', { firstName })
       }
-      res.send('帳密錯誤')
+      res.send('<h1 style="color: red; position:relative; left:20px;">帳密錯誤<h1>')
     })
     .catch(error => console.error(error))
 }
